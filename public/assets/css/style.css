@@ -1,0 +1,131 @@
+body {
+    font-family: 'Lato';
+}
+
+.fa-btn {
+    margin-right: 6px;
+}
+
+.create-new-role{
+    margin-bottom: 20px;
+}
+
+.tab-content .tab-pane{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#levels-data-container .user-levels li{
+    margin-right: -1px;
+}
+
+#users-data-container .users-pagination li{
+    margin-right: -1px;
+}
+
+#levels-data-container .user-levels li:not(.disabled) a{
+    cursor: pointer;
+}
+
+#users-data-container .users-pagination li:not(.disabled) a{
+    cursor: pointer;
+}
+
+.customize-xs-btn{
+    width: 70px;
+    display: inline;
+    margin-bottom: 2px;
+}
+
+.roles-help-message{
+    padding: 5px;
+    color: #1F1C1A;
+}
+
+.question-sign{
+    cursor: pointer;
+}
+
+.straight-element{
+    display: inline;
+}
+
+.error-message{
+    color: #FF0000;
+}
+
+.url-info {
+    color: #2ECC71;
+}
+
+.search-level{
+    width: 300px;
+}
+
+/*#loading-pagination {*/
+    /*height: 400px;*/
+    /*position: relative;*/
+    /*background-color: gray; *//* for demonstration */
+/*}*/
+/*.ajax-loader {*/
+    /*position: absolute;*/
+    /*left: 50%;*/
+    /*top: 50%;*/
+    /*margin-left: -32px; *//* -1 * image width / 2 */
+    /*margin-top: -32px; *//* -1 * image height / 2 */
+/*}*/
+
+.spinner {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -50px; /* half width of the spinner gif */
+    margin-top: -50px; /* half height of the spinner gif */
+    text-align:center;
+    z-index:1234;
+    overflow: auto;
+    width: 80px; /* width of the spinner gif */
+    height: 82px; /*hight of the spinner gif +2px to fix IE8 issue */
+}
+
+/*
+Author box
+*/
+
+.author-box {
+    margin-top: 5px;
+    padding: 40px 0;
+    /*border-bottom: 1px solid #f0f0f0;*/
+    /*border-top: 1px solid #f0f0f0;*/
+}
+.author-box .image {
+    float: left;
+    margin-right: 10px;
+    /*max-width: 80px;*/
+    /*border: 1px solid #f0f0f0;*/
+    border-radius: 50%;
+    /*padding: 10px;*/
+}
+.author-box .info {
+    overflow: hidden;
+}
+.author-box .info p {
+    color: #666;
+    font-weight: 300;
+    line-height: 24px;
+}
+.author-box .info h6 {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+    font-style: italic;
+}
+.author-box .info h6 a {
+    color: #b09f23;
+}
+
+#login-page .remember-session{
+    margin-top: 12px;
+}
